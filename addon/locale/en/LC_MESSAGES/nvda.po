@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is covered by the GNU General Public License.
+# FIRST AUTHOR: Him Prasad Gautam <drishtibachak@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'poeditMadeEasy' '3.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2022-05-01 01:19+0100\n"
+"PO-Revision-Date: 2022-05-01 01:28+0100\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. Check the number of parameters of source and translated text
+#: addon\appModules\poedit.py:80
+msgid "brace"
+msgstr ""
+
+#: addon\appModules\poedit.py:80
+msgid "bracket"
+msgstr ""
+
+#: addon\appModules\poedit.py:82 addon\appModules\poedit.py:333
+msgid "ampersand"
+msgstr ""
+
+#: addon\appModules\poedit.py:82
+msgid "paragraph"
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:90
+msgid "Reports about the copying act in poedit."
+msgstr ""
+
+#. Translators: Name of the section in "Input gestures" dialog.
+#: addon\appModules\poedit.py:92 addon\appModules\poedit.py:103
+#: addon\appModules\poedit.py:119 addon\appModules\poedit.py:130
+#: addon\appModules\poedit.py:154 addon\appModules\poedit.py:192
+#: addon\appModules\poedit.py:236 addon\appModules\poedit.py:250
+#: addon\appModules\poedit.py:267 addon\appModules\poedit.py:284
+#: addon\appModules\poedit.py:404 addon\appModules\poedit.py:417
+msgid "POEdit"
+msgstr ""
+
+#. Translators: The copying of source text to translation pressing control+b in poedit.
+#: addon\appModules\poedit.py:97
+msgid "copied original text."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:101
+msgid "Reports about the deletion act in poedit."
+msgstr ""
+
+#. Translators: The deletion of translation pressing control+k in poedit.
+#: addon\appModules\poedit.py:110
+msgid "translation deleted."
+msgstr ""
+
+#. Translators: Report that No translation text available to delete.
+#. Translators: The announcement of the absence of translated text on pressing ctrl+shift+t.
+#. Translators: Announcing the absence of plural form
+#. Translators: Announcing absence of text in translation field
+#: addon\appModules\poedit.py:113 addon\appModules\poedit.py:159
+#: addon\appModules\poedit.py:175 addon\appModules\poedit.py:185
+#: addon\appModules\poedit.py:369 addon\appModules\poedit.py:409
+msgid "No text in translation."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:117
+msgid "Reports while saving the po file."
+msgstr ""
+
+#. Translators: The saving  of currently focused  po file by  pressing control+s.
+#: addon\appModules\poedit.py:124
+msgid "saving the po file..."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:128
+msgid ""
+"Reports the source text in poedit. In case of plural form of messages, "
+"pressing twice says the plural form of the source text"
+msgstr ""
+
+#. Translators: The announcement of the absence of source text on pressing ctrl+shift+r.
+#: addon\appModules\poedit.py:135
+msgid "No source text."
+msgstr ""
+
+#: addon\appModules\poedit.py:138 addon\appModules\poedit.py:168
+#: addon\appModules\poedit.py:180 addon\appModules\poedit.py:200
+#: addon\appModules\poedit.py:209
+msgid "singular"
+msgstr ""
+
+#: addon\appModules\poedit.py:140 addon\appModules\poedit.py:170
+#: addon\appModules\poedit.py:178 addon\appModules\poedit.py:203
+#: addon\appModules\poedit.py:206
+msgid "plural"
+msgstr ""
+
+#. Translators: Announcing the absence of plural form
+#: addon\appModules\poedit.py:147 addon\appModules\poedit.py:165
+msgid "Has no plural form."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:152
+msgid ""
+"Reports the translated string in poedit. In case of plural form of messages, "
+"pressing twice says the another form of the translated string"
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:190
+msgid "Describes the cause of error."
+msgstr ""
+
+#. Translators: Announcing the fact of source and translated text are equals.
+#: addon\appModules\poedit.py:216
+#, python-brace-format
+msgid "{caseType} message contains same text in source and translation."
+msgstr ""
+
+#. Translators: Announcing the fact of source and translated text having different number of constants
+#: addon\appModules\poedit.py:219
+#, python-brace-format
+msgid ""
+"{caseType} message has different  number of {unequalItem} in source and "
+"translation."
+msgstr ""
+
+#. Translators: Announcing translation without syntax errors
+#: addon\appModules\poedit.py:226
+msgid "no syntax error."
+msgstr ""
+
+#. Translators: Announcing translation without no more syntax errors
+#: addon\appModules\poedit.py:229
+msgid "no other syntax error."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:234
+msgid "Reports any notes for translators"
+msgstr ""
+
+#. Translators: Reported when the translators notes window does not contain any texts.
+#: addon\appModules\poedit.py:243
+msgid "No notes for translators."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:248
+msgid "Reports any comments in the comments window"
+msgstr ""
+
+#. Translators: Reported when the comment window does not contain any texts.
+#: addon\appModules\poedit.py:257
+msgid "Comment window has no text."
+msgstr ""
+
+#. Translators: Reported when the comments window could not be found.
+#: addon\appModules\poedit.py:260
+msgid "Could not find comment window."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:265
+msgid "Toggles the beep mode and informs the new state."
+msgstr ""
+
+#. Translators: Announcing the state of beeps
+#: addon\appModules\poedit.py:274
+msgid "Beep off"
+msgstr ""
+
+#. Translators: Announcing the state of beeps
+#: addon\appModules\poedit.py:278
+msgid "Beep on"
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:282
+msgid "sets the beep volume in mild and sharp level in poedit."
+msgstr ""
+
+#. Translators: Announcing the level of tone
+#: addon\appModules\poedit.py:291
+msgid "set to mild tone"
+msgstr ""
+
+#. Translators: Announcing the level of tone
+#: addon\appModules\poedit.py:295
+msgid "set to high tone"
+msgstr ""
+
+#. Translators: Announcing different number of paramenters in both fields
+#: addon\appModules\poedit.py:339
+#, python-brace-format
+msgid ""
+"message has different  number of {unequalItem} in source and translation."
+msgstr ""
+
+#. Translators: Announcing the same text in both fields...
+#: addon\appModules\poedit.py:347
+msgid "Message contains same text in source and translation."
+msgstr ""
+
+#. Translators: Announcing different number of & in both fields
+#: addon\appModules\poedit.py:351
+msgid "Message contains different number of '&'."
+msgstr ""
+
+#: addon\appModules\poedit.py:361
+msgid "Has plural form."
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:402
+msgid "Reports the status of message set by toggling in poedit."
+msgstr ""
+
+#: addon\appModules\poedit.py:409
+msgid "erased Fuzzy label."
+msgstr ""
+
+#: addon\appModules\poedit.py:409
+msgid "labelled as fuzzy."
+msgstr ""
+
+#: addon\appModules\poedit.py:409
+msgid "Error in translation"
+msgstr ""
+
+#. Translators: Message to be announced during Keyboard Help
+#: addon\appModules\poedit.py:415
+msgid "Shows the  firsts suggestions, untill the maximum of 5"
+msgstr ""
+
+#. Translators: Name of dialog with the suggestions of POEdit
+#: addon\appModules\poedit.py:443
+msgid "POEdit suggestions"
+msgstr ""
+
+#. Translator: Name of button to accept the selected suggestion
+#: addon\appModules\poedit.py:456
+msgid "Accept"
+msgstr ""
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Poedit more accessible."
+msgstr ""
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid ""
+"This Add-on Announces the actions taken on pressing the shortcut commands of "
+"poedit;\n"
+"It  indicates the different category of messages by specific beeps or "
+"asteriks;\n"
+"Commands for knowing the source and translated message text and many other "
+"usefull informations"
+msgstr ""
