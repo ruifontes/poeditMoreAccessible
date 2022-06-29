@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 'poeditMadeEasy' '3.1'\n"
+"POT-Creation-Date: 2022-06-28 15:40+0300\n"
+"PO-Revision-Date: 2022-06-29 16:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: Ivan Shtefuriak ip0877@gmail.com\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon/appModules/poedit.py:80
+msgid "brace"
+msgstr "фігурна дужка"
+
+#: addon/appModules/poedit.py:80
+msgid "bracket"
+msgstr "квадратна дужка"
+
+#: addon/appModules/poedit.py:82 addon/appModules/poedit.py:333
+msgid "ampersand"
+msgstr "амперсанд"
+
+#: addon/appModules/poedit.py:82
+msgid "paragraph"
+msgstr "абзац"
+
+#: addon/appModules/poedit.py:90
+msgid "Reports about the copying act in poedit."
+msgstr "Повідомляє про копіювання тексту оригіналу до перекладу."
+
+#: addon/appModules/poedit.py:92 addon/appModules/poedit.py:103
+#: addon/appModules/poedit.py:119 addon/appModules/poedit.py:130
+#: addon/appModules/poedit.py:154 addon/appModules/poedit.py:192
+#: addon/appModules/poedit.py:236 addon/appModules/poedit.py:250
+#: addon/appModules/poedit.py:267 addon/appModules/poedit.py:284
+#: addon/appModules/poedit.py:404 addon/appModules/poedit.py:417
+msgid "POEdit"
+msgstr "POEdit"
+
+#: addon/appModules/poedit.py:97
+msgid "copied original text."
+msgstr "текст оригіналу скопійовано до перекладу."
+
+#: addon/appModules/poedit.py:101
+msgid "Reports about the deletion act in poedit."
+msgstr "Повідомляє про видалення перекладу."
+
+#: addon/appModules/poedit.py:110
+msgid "translation deleted."
+msgstr "переклад видалено."
+
+#: addon/appModules/poedit.py:113 addon/appModules/poedit.py:159
+#: addon/appModules/poedit.py:175 addon/appModules/poedit.py:185
+#: addon/appModules/poedit.py:369 addon/appModules/poedit.py:409
+msgid "No text in translation."
+msgstr "Переклад відсутній."
+
+#: addon/appModules/poedit.py:117
+msgid "Reports while saving the po file."
+msgstr "Повідомляє про збереження po файлу."
+
+#: addon/appModules/poedit.py:124
+msgid "saving the po file..."
+msgstr "збереження po файлу..."
+
+#: addon/appModules/poedit.py:128
+msgid ""
+"Reports the source text in poedit. In case of plural form of messages, "
+"pressing twice says the plural form of the source text"
+msgstr ""
+"Промовляє текст оригіналу. У випадку форми множини, при подвійному "
+"натисканні, вказує форму множини оригіналу"
+
+#: addon/appModules/poedit.py:135
+msgid "No source text."
+msgstr "Немає тексту оригіналу."
+
+#: addon/appModules/poedit.py:138 addon/appModules/poedit.py:168
+#: addon/appModules/poedit.py:180 addon/appModules/poedit.py:200
+#: addon/appModules/poedit.py:209
+msgid "singular"
+msgstr "однина"
+
+#: addon/appModules/poedit.py:140 addon/appModules/poedit.py:170
+#: addon/appModules/poedit.py:178 addon/appModules/poedit.py:203
+#: addon/appModules/poedit.py:206
+msgid "plural"
+msgstr "множина"
+
+#: addon/appModules/poedit.py:147 addon/appModules/poedit.py:165
+msgid "Has no plural form."
+msgstr "Не має форми множини."
+
+#: addon/appModules/poedit.py:152
+msgid ""
+"Reports the translated string in poedit. In case of plural form of messages, "
+"pressing twice says the another form of the translated string"
+msgstr ""
+"Промовляє текст перекладу. У випадку форми множини, при подвійному "
+"натисканні, вказує наступну форму перекладу"
+
+#: addon/appModules/poedit.py:190
+msgid "Describes the cause of error."
+msgstr "Описує причину помилки."
+
+#: addon/appModules/poedit.py:216
+#, python-brace-format
+msgid "{caseType} message contains same text in source and translation."
+msgstr "{caseType} оригінал і переклад містять однаковий текст."
+
+#: addon/appModules/poedit.py:219
+#, python-brace-format
+msgid ""
+"{caseType} message has different  number of {unequalItem} in source and "
+"translation."
+msgstr ""
+"{caseType} Оригінал і переклад містять різну кількість символів {unequalItem}"
+
+#: addon/appModules/poedit.py:226
+msgid "no syntax error."
+msgstr "немає синтаксичної помилки."
+
+#: addon/appModules/poedit.py:229
+msgid "no other syntax error."
+msgstr "немає інших синтаксичних помилок."
+
+#: addon/appModules/poedit.py:234
+msgid "Reports any notes for translators"
+msgstr "Повідомляє будь-які примітки для перекладачів"
+
+#: addon/appModules/poedit.py:243
+msgid "No notes for translators."
+msgstr "Немає приміток для перекладачів."
+
+#: addon/appModules/poedit.py:248
+msgid "Reports any comments in the comments window"
+msgstr "Повідомляє будь-які коментарі у вікні для коментарів"
+
+#: addon/appModules/poedit.py:257
+msgid "Comment window has no text."
+msgstr "Вікно коментаря не містить тексту."
+
+#: addon/appModules/poedit.py:260
+msgid "Could not find comment window."
+msgstr "Не вдалося знайти вікно коментарів."
+
+#: addon/appModules/poedit.py:265
+msgid "Toggles the beep mode and informs the new state."
+msgstr "Перемикає режим звукового сигналу й інформує про новий стан."
+
+#: addon/appModules/poedit.py:274
+msgid "Beep off"
+msgstr "Вимкнути звуковий сигнал"
+
+#: addon/appModules/poedit.py:278
+msgid "Beep on"
+msgstr "Увімкнути звуковий сигнал"
+
+#: addon/appModules/poedit.py:282
+msgid "sets the beep volume in mild and sharp level in poedit."
+msgstr "перемикає тон звукового сигналу між середнім і високим рівнем."
+
+#: addon/appModules/poedit.py:291
+msgid "set to mild tone"
+msgstr "встановлено середній тон"
+
+#: addon/appModules/poedit.py:295
+msgid "set to high tone"
+msgstr "встановлено високий тон"
+
+#: addon/appModules/poedit.py:339
+#, python-brace-format
+msgid ""
+"message has different  number of {unequalItem} in source and translation."
+msgstr "оригінал і переклад містять різну кількість символів {unequalItem}"
+
+#: addon/appModules/poedit.py:347
+msgid "Message contains same text in source and translation."
+msgstr "Оригінал і переклад містять однаковий текст."
+
+#: addon/appModules/poedit.py:351
+msgid "Message contains different number of '&'."
+msgstr "Повідомлення містить різну кількість символів «&»."
+
+#: addon/appModules/poedit.py:361
+msgid "Has plural form."
+msgstr "Має форму множини."
+
+#: addon/appModules/poedit.py:402
+msgid "Reports the status of message set by toggling in poedit."
+msgstr ""
+"Повідомляє про помітку перекладу неточним, або про зняття такої помітки."
+
+#: addon/appModules/poedit.py:409
+msgid "erased Fuzzy label."
+msgstr "мітку \"неточний\" знято."
+
+#: addon/appModules/poedit.py:409
+msgid "labelled as fuzzy."
+msgstr "позначено неточним."
+
+#: addon/appModules/poedit.py:409
+msgid "Error in translation"
+msgstr "Помилка в перекладі"
+
+#: addon/appModules/poedit.py:415
+msgid "Shows the  firsts suggestions, untill the maximum of 5"
+msgstr "Показує перші пропозиції, доки не набереться максимум 5"
+
+#: addon/appModules/poedit.py:443
+msgid "POEdit suggestions"
+msgstr "Пропозиції POEdit"
+
+#: addon/appModules/poedit.py:456
+msgid "Accept"
+msgstr "Прийняти"
+
+#: buildVars.py:23
+msgid "Poedit more accessible."
+msgstr "Доступніший Poedit."
+
+#: buildVars.py:26
+msgid ""
+"This Add-on Announces the actions taken on pressing the shortcut commands of "
+"poedit;\n"
+"It  indicates the different category of messages by specific beeps or "
+"asteriks;\n"
+"Commands for knowing the source and translated message text and many other "
+"usefull informations"
+msgstr ""
+"Цей додаток оголошує дії, які виконуються при натисканні команд швидкого "
+"доступу poedit;\n"
+"Він вказує на різні категорії повідомлень певними звуковими сигналами або "
+"зірочками;\n"
+"Команди для визначення оригінального та перекладеного тексту повідомлення та "
+"багато іншої корисної інформації"
